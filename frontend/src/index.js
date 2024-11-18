@@ -7,7 +7,7 @@ import ShopContextProvider from './context/ShopContext';
 import axios from 'axios'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-axios.defaults.baseURL = 'http://localhost:4000'
+axios.defaults.baseURL = "https://forever-backend-mauve.vercel.app";
 root.render(
   <BrowserRouter>
     <ShopContextProvider>
