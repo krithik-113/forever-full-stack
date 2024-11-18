@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import axios from "axios";
 
 const root = createRoot(document.getElementById("root"))
-axios.defaults.baseURL = "https://forever-backend-mauve.vercel.app";
+axios.defaults.baseURL = "https://forever-backend-ggat.onrender.com";
   root.render(
   <BrowserRouter>
       <App />
